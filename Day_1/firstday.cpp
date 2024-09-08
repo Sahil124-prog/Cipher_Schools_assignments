@@ -11,19 +11,30 @@
 //     return 0;
 // }
 //2Q
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int sum=0;
+//     for(int i=1;i<=5;i++){
+//         int n;
+//         cout<<"Enter grade "<<i<<": ";
+//         cin>>n;
+//         sum+=n;
+//         cout<<endl;
+//     }
+//     float k = (float)sum;
+//     float z= sum/5;
+//     cout<<z;
+//     return 0;
+// }
 #include<iostream>
 using namespace std;
 int main(){
-    int sum=0;
-    for(int i=1;i<=5;i++){
-        int n;
-        cout<<"Enter grade "<<i<<": ";
-        cin>>n;
-        sum+=n;
-        cout<<endl;
-    }
-    float k = (float)sum;
-    float z= sum/5;
+    int n;
+    cout<<"enter a number: ";
+    cin>>n;
+    cout<<"The square of "<<n<<"is: ";
+    int z = n*n;
     cout<<z;
     return 0;
 }
